@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import "./App.css"
 
 export default function App() {
@@ -24,4 +22,3 @@ export default function App() {
   </div>   
     </body>
 }
->>>>>>> ef4dc4ea33131ce2cf608c87811ecd61668804b5
