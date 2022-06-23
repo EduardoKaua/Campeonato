@@ -2,14 +2,23 @@ import "./App.css"
 
 export default function App() {
     return <body>
-    <header>
         <div className="cabeçalho">
-            <br></br>
-            
+        <div className="Logo">
+                <h1>ELITI</h1>
+            </div>
         </div>
-    </header>
-    <div>
-        
-    </div>
+        <a href="#">
+ <div className="login"> <button>login</button>
+    </div> 
+    </a>   
+
+    <div className="csgo"> <button> CSGO </button> </div> 
+   <div className="valorant"> <button>VALORANT </button>
+  <div className="free fire"> <button>FREE FIRE </button>
+ <div className="lol"> <button>LOL</button>
+
+</div> 
+ </div>
+  </div>   
     </body>
 }
