@@ -28,5 +28,8 @@ export default function App() {
         <button>LOL</button>
       </div>
     </body>
+<<<<<<< HEAD
   );
+=======
+>>>>>>> 24186dc9354668edfba7aec2a01210ee1632471e
 }
