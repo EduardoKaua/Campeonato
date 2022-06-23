@@ -1,42 +1,56 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color: rgb(63, 63, 63);
-
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(31, 31, 31),
+    rgb(82, 82, 63)
+  );
 }
 
-.cabeçalho{
-    background-color: rgb(180, 180, 180);
-    width: 100%;
-    height: 120px;
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    border-bottom: solid 8px  black;
-
+.cabeçalho {
+  background-image: linear-gradient(to right, rgb(26, 24, 24), rgb(94, 91, 91));
+  width: 100%;
+  height: 120px;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border-bottom: solid 8px black;
 }
 button {
-    padding: 10px;
-    position: absolute;
-    top: 10px;
-    left: 95%;
+  position: absolute;
+  top: 10px;
+  left: 95%;
 }
 .Logo {
-    position: absolute;
-    right: 42%;
-    font-size: 5vh;
-    bottom: 88%;
-    color: black;
+  position: absolute;
+  right: 42%;
+  font-size: 5vh;
+  bottom: 88%;
+  color: black;
 }
 .csgo {
-position: absolute;
-    padding: 10px;
-    right: 100px;
-    
-    
+  position: absolute;
+  top: 500px;
+  left: 250px;
+}
+.valorant {
+  position: absolute;
+  top: 500px;
+  right: 340px;
+}
+.freefire {
+  position: absolute;
+  top: 1000px;
+  left: 250px;
+}
+.lol {
+  position: absolute;
+  top: 1000px;
+  right: 250px;
 }
