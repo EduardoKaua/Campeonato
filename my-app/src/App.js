@@ -9,12 +9,11 @@ export default function App() {
           <h1>ELITI</h1>
         </div>
       </div>
-      <a href="#">
+      <a href="App2.css">
         <div className="login">
-          <button>login</button>
+          <button>login</button>  
         </div>
       </a>
-
       <div className="csgo">
         <button>CSGO</button>
       </div>
@@ -28,8 +27,5 @@ export default function App() {
         <button>LOL</button>
       </div>
     </body>
-<<<<<<< HEAD
   );
-=======
->>>>>>> 24186dc9354668edfba7aec2a01210ee1632471e
 }
