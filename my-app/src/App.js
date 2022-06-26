@@ -9,7 +9,7 @@ export default function App() {
           <h1>ELITI</h1>
         </div>
       </div>
-      <a href="App2.css">
+      <a href="App2.js">
         <div className="login">
           <button>login</button>  
         </div>
