@@ -10,8 +10,11 @@ export default function App() {
   return (
     <body>
       <div className="cabeçalho">
+       
         <div className="Logo">
+          <a href="eliti.com.br">
           <h1>ELITI</h1>
+          </a>
         </div>
       </div>
         
