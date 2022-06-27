@@ -8,12 +8,12 @@
   body {
     background-image: linear-gradient(
       to right,
-      rgb(16, 29, 53),
-      rgb(12, 2, 34)
+      rgb(18, 25, 59),
+      rgb(30, 30, 31)
     );
   }
   .cabeçalho {
-    background-image: linear-gradient(to right, rgb(27, 33, 119), rgb(51, 14, 71));
+    background-image: linear-gradient(to right, rgb(5, 10, 34), rgb(19, 9, 78));
     width: 100%;
     height: 120px;
     display: flex;
@@ -35,21 +35,30 @@
 
   li {
     border-bottom: solid 8px black;
+    border-radius: 15px;
     padding: 18px;
   }
  .Reservas {
+  position: relative;
+  top: 32px;
+  padding-left: 15px;
     
   
   }
-  .Titulares {
+  .Titular {
+    position: relative;
+    top: 15px;
+    padding-left: 15px;
     
-  }
-  .principal {
-    position: absolute;
-    bottom: 100px;
-  }
-  .nprincipal {
-    position: absolute;
     
   }
  
+  
+ .um {
+  position: relative;
+  top: 20px;
+ }
+ .dois {
+  position: relative;
+  top:  40px;
+ }

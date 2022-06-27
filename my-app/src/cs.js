@@ -14,24 +14,21 @@ export default function App() {
        <div className="Titular">
        <h1>Jogadores Titulares</h1>
        </div>
-        <div className="Principal">
-       <li>Sem informação</li>
-       <li>Sem informação</li>
-       <li>Sem informação</li>
-       <li>Sem informação</li>
-       <li>Sem informação</li>
-         </div>
+       <li className="um">Sem informação</li>
+       <li className="um">Sem informação</li>
+       <li className="um">Sem informação</li>
+       <li className="um">Sem informação</li>
+       <li className="um">Sem informação</li>
 
        <div className="Reservas">
        <h1>Jogadores Reservas</h1>
        </div>
-      <div className="Nprincipal">
-    
-       <li>Sem informação</li>
-       <li>Sem informação</li>
-       <li>Sem informação</li>
      
-       </div>
+    
+       <li className="dois">Sem informação</li>
+       <li className="dois">Sem informação</li>
+       <li className="dois">Sem informação</li>
+     
        </div>
       </body>
     );
