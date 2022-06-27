@@ -1,5 +1,7 @@
 import "./App.css";
 import React from "react";
+import csgo from './imagens/csgo.png'
+
 export default function App() {
 
   return (
@@ -9,11 +11,9 @@ export default function App() {
           <h1>ELITI</h1>
         </div>
       </div>
-      <a href="App2.js">
         <div className="login">
           <button>login</button>  
         </div>
-      </a>
       <div className="csgo">
         <button>CSGO</button>
       </div>
@@ -26,6 +26,9 @@ export default function App() {
       <div className="lol">
         <button>LOL</button>
       </div>
+
+<img src={csgo} alt="" />
+
     </body>
   );
 }
