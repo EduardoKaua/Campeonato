@@ -28,9 +28,7 @@ function Login() {
   return (
     <div className="container">
       <h1>Login</h1>
-      <a href="#">
       <p>Não tenho acesso a conta</p>
-      </a>
       <Formik
         initialValues={{}}
         onSubmit={handleLogin}

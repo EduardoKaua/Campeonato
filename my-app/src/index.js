@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import cs from "./cs";
-export * from './pages/Login';
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <cs />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
+
+export default App;
