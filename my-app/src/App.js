@@ -1,13 +1,19 @@
 import "./App.css";
 import React from "react";
+import Login from "./Login"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import csgo from './imagens/csgo.png'
 import valorant from './imagens/valorant.png'
 import freefire from './imagens/free fire.png'
 import lol from './imagens/lol.png'
+import { Link } from 'react-router-dom'
 
 export default function App() {
-
   return (
+    <Router>
+      <Switch>
+      <Route exact path="./App.js" component={App}/>
+      <Route path="./login" component={Login}/>
     <body>
       <div className="cabeçalho">
         <div className="Logo">
@@ -15,8 +21,10 @@ export default function App() {
         </div>
       </div>
         
-        <div className="login">
-          <button a href="./paginas/Login.js">login</button>
+     <div className="login">
+        <Link to="./Login.js">
+          <button>login</button>
+        </Link>
         </div>
 <div className="csgo">
 <img src={csgo} alt="" />
@@ -32,5 +40,7 @@ export default function App() {
 </div>
 
     </body>
+    </Switch>
+  </Router>
   );
 }

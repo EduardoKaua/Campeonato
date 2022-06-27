@@ -4,7 +4,7 @@ import * as yup from "yup";
 import { ErrorMessage, Formik, Form, Field } from "formik";
 import Axios from "axios";
 
-function App2() {
+function Login() {
   const handleLogin = (values) => {
     Axios.post("http://localhost:3001/login", {
       email: values.email,
@@ -62,4 +62,4 @@ function App2() {
   );
 }
 
-export default App2;
+export default Login;
