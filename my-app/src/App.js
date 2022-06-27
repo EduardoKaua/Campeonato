@@ -2,11 +2,11 @@ import "./App.css";
 import React from "react";
 import Login from "./Login"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { Link } from 'react-router-dom'
 import csgo from './imagens/csgo.png'
 import valorant from './imagens/valorant.png'
 import freefire from './imagens/free fire.png'
 import lol from './imagens/lol.png'
-import { Link } from 'react-router-dom'
 
 export default function App() {
   return (
