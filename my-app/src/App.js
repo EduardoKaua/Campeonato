@@ -12,7 +12,7 @@ export default function App() {
         </div>
       </div>
         <div className="login">
-          <button>login</button>  
+          <button a href="./paginas/Login.js">login</button>
         </div>
       <div className="csgo">
         <button>CSGO</button>
