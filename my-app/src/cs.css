@@ -38,11 +38,18 @@
     padding: 18px;
   }
  .Reservas {
-    position: relative;
-    left: 10px;
+    
+  
   }
   .Titulares {
-    position: relative;
-    left: 10px;
+    
+  }
+  .principal {
+    position: absolute;
+    bottom: 100px;
+  }
+  .nprincipal {
+    position: absolute;
+    
   }
  
