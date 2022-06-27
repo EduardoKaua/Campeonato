@@ -31,8 +31,13 @@
   
   button {
     position: absolute;
-    bottom: 600px;
-    left: 95%;
+    top: 5px;
+    left: 96.50%;
+    padding: 2px;
+    background-color: rgb(35, 26, 44);
+    color: rgb(91, 113, 151);
+    border-radius: 4px;
+    cursor: pointer;
   }
   .Logo {
     position: absolute;
