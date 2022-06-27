@@ -16,6 +16,11 @@ export default function App() {
       </div>
         
 <div className="csgo">
+
+        <div className="login">
+          <button a href="./paginas/Login.js">login</button>
+        </div>
+      
 <img src={csgo} alt="" />
 </div>
 <div className="valorant">
