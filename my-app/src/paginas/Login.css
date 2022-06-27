@@ -1,10 +1,10 @@
 .container {
-    width: 200px;
+    width: 250px;
     height: max-content;
     margin: auto;
     background-color: #ebebeb;
     padding: 50px 15px;
-    margin-top: 200px;
+    margin-top: 250px;
     border-radius: 7px;
     font-family: Roboto, sans-serif;
     box-shadow: 10px 11px rgba(0, 0, 0, 0.7);
@@ -37,5 +37,15 @@
   .button {
     position: relative;
     top: 20px;
-    left: 10px;
+    left: 0px;
+    background-color: rgb(182, 185, 185);
+    color: black;
+  }
+
+  p {
+    position: absolute;
+    top: 270px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
   }
