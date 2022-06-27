@@ -30,7 +30,6 @@ export default function App() {
 <div className="lol" >
 <img src={lol} alt="" />
 </div>
-
-    </body>
+   </body>
   );
 }
