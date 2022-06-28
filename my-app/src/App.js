@@ -2,7 +2,7 @@ import React from "react"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import Feed from "./pages/Feed"
 import Login from "./pages/Login"
-import cs from "./cs"
+import cs from "./pages/cs"
 
 export default function App() {
   return (
