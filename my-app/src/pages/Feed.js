@@ -16,19 +16,25 @@ export default function Feed() {
       </div>
         
      <div className="login">
-        <Link to="./Login.js">
+        <Link to="./login.js">
           <button>login</button>
         </Link>
         </div>
+
 <div className="csgo">
-<img src={csgo} alt="" />
+  <Link to="./cs.js">
+<img src={csgo} alt="./cs.js" />
+  </Link>
+
 </div>
 <div className="valorant">
 <img src={valorant} alt="" />
 </div>
+
 <div className="freefire">
 <img src={freefire} alt="" />
 </div>
+
 <div className="lol" >
 <img src={lol} alt="" />
 </div>

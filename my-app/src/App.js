@@ -10,7 +10,7 @@ export default function App() {
       <Switch>
       <Route exact path="/" component={Feed}/>
       <Route path="/" component={Login}/>
-      <Route path="/" component={cs}/>
+      <Route path="./pages/cs.js" component={cs}/>
       </Switch>
   </Router>
   );

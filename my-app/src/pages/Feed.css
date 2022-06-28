@@ -4,6 +4,7 @@
     padding: 0;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
+<<<<<<< HEAD
   
 
     body {
@@ -15,6 +16,20 @@
     }
     .cabeçalho {
       background-image: linear-gradient(to right, rgb(27, 33, 119), rgb(51, 14, 71));
+=======
+
+  body {
+    background-image: linear-gradient(
+      to right,
+      rgb(35, 26, 44),
+      rgb(71, 33, 33),
+      rgb(35, 26, 44)
+    );
+  }
+
+  .cabeçalho {
+    background-image: linear-gradient(to right, rgb(32, 31, 31), rgb(82, 78, 78));
+>>>>>>> 20c988d004d306440aace15da2791f23e79c4dad
     width: 100%;
     height: 120px;
     display: flex;
@@ -22,21 +37,10 @@
     color: white;
     border-bottom: solid 8px black;
   }
-
-  h1 {
-    color: black;
-    text-decoration: none;
-  }
-  
   button {
     position: absolute;
-    top: 5px;
-    left: 96.50%;
-    padding: 2px;
-    background-color: rgb(35, 26, 44);
-    color: rgb(91, 113, 151);
-    border-radius: 4px;
-    cursor: pointer;
+    top: 10px;
+    left: 95%;
   }
   .Logo {
     position: absolute;
@@ -66,21 +70,18 @@
     top: 600px;
     left: 719px;
     max-height:100px
-    
+
 
   }
-  
+
   img {
     border: solid 8px black;
     width: 420px;
     border-radius: 20px;
     cursor: pointer;
-    transition-duration: 0.6s;
-    display: fixed;
   }
 
   img:hover {
     transition-duration:0.8s;
-    border: solid 8px rgb(163, 19, 19);
     width: 470px;
   }
