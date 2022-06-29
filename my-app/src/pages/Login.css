@@ -1,5 +1,4 @@
 .container {
-
     width: 250px;
     height: max-content;
     margin: auto;
@@ -51,3 +50,14 @@
     cursor: pointer;
   }
 
+  .seta {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    right: 700px;
+    bottom: 400px;
+  }
+
+  Link {
+    color: white;
+  }

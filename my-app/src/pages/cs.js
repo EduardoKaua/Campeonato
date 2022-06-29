@@ -1,35 +1,130 @@
 import "./cs.css";
 import React from "react";
+import { Link } from 'react-router-dom'
 
-export default function cs() {
-    return (
-      <body>
-
-<div className="cabeçalho">
-        <div className="Logo">
-          <h1>TABELA DE JOGADORES CSGO</h1>
-        </div>
+export default function App() {
+  return (
+    <body>
+      <div className="cabeçalho">
+      <div className="Logo">
+        <h1>CSGO</h1>
       </div>
-        <div className="Tudo">
-       <div className="Titular">
-       <h1>Jogadores Titulares</h1>
-       </div>
-       <li className="um">Sem informação</li>
-       <li className="um">Sem informação</li>
-       <li className="um">Sem informação</li>
-       <li className="um">Sem informação</li>
-       <li className="um">Sem informação</li>
+    </div>
+      
+      <div className="tabela">
+      <table>
+      <thead>
+      <tbody>
+      <h1 className="titular">Jogadores Titulares</h1>
+      <tr>
+      <th>Nick</th>
+      <th>Nome</th>
+      <th>Idade</th>
+      <th>Turma</th>
+      </tr>
 
-       <div className="Reservas">
-       <h1>Jogadores Reservas</h1>
-       </div>
+      <tr>
+      <td>Strend</td>
+      <td>Gustavo</td>
+      <td>81 anos</td>
+      <td>1° turma</td>
+
+      </tr>
+      <tr>
+      <td>sem info</td>
+      <td>sem info</td>
+      <td>sem info</td>
+      <td>sem info</td>
+
+      </tr>
+      <tr>
+      <td>sem info</td>
+      <td>sem info</td>
+      <td>sem info</td>
+      <td>sem info</td>
+
+      </tr>
+      
+      <tr>
+      <td>sem info</td>
+      <td>sem info</td>
+      <td>sem info</td>
+      <td>sem info</td>
+
+      </tr>
+      <tr>
+      <td>sem info</td>
+      <td>sem info</td>
+      <td>sem info</td>
+      <td>sem info</td>
+
+      </tr>
+      </tbody>
+      </thead>
+      </table>
+
+
+    </div>
+      
+      <div className="tabela2">
+      <table className="table2">
+      <thead>
+      <tbody>
+      <h1 className="reserva">Jogadores Reservas</h1>
+      <tr>
+      <th>Nick</th>
+      <th>Nome</th>
+      <th>Idade</th>
+      <th>Turma</th>
+      </tr>
+
+      <tr>
+      <td>Strend</td>
+      <td>Gustavo</td>
+      <td>81 anos</td>
+      <td>1° turma</td>
+
+      </tr>
+      <tr>
+      <td>sem info</td>
+      <td>sem info</td>
+      <td>sem info</td>
+      <td>sem info</td>
+
+      </tr>
+      <tr>
+      <td>sem info</td>
+      <td>sem info</td>
+      <td>sem info</td>
+      <td>sem info</td>
+
+      </tr>
+      <tr>
+      <td>sem info</td>
+      <td>sem info</td>
+      <td>sem info</td>
+      <td>sem info</td>
+
+      </tr>
+      <tr>
+      <td>sem info</td>
+      <td>sem info</td>
+      <td>sem info</td>
+      <td>sem info</td>
+
+      </tr>
+      
+      </tbody>
+      </thead>
+      </table>
+      </div>
      
-    
-       <li className="dois">Sem informação</li>
-       <li className="dois">Sem informação</li>
-       <li className="dois">Sem informação</li>
-     
-       </div>
-      </body>
-    );
-  }
+      <div className="setacs">
+        <Link to="/">
+          <h1>↩</h1>
+        </Link>
+         </div>
+
+    </body>
+  );
+}

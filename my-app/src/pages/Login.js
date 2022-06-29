@@ -32,6 +32,7 @@ function Login() {
       <Link to="/">
       <p>Não tenho acesso a conta</p>
       </Link>
+      
       <Formik
         initialValues={{}}
         onSubmit={handleLogin}
@@ -60,9 +61,14 @@ function Login() {
           <button className="button" type="submit">
             Login
           </button>
+          <div className="seta">
+          <Link to="/">
+          <h1>↩</h1>
+          </Link>
+         </div>
           </Form>
       </Formik>
-          </div>
+          </div>  
   );
 }
 
