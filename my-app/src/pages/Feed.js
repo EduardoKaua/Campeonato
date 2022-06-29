@@ -22,8 +22,8 @@ export default function Feed() {
         </div>
 
 <div className="csgo">
-  <Link to="./cs.js">
-<img src={csgo} alt="./cs.js" />
+  <Link to="/cs">
+<img src={csgo} alt="" />
   </Link>
 
 </div>

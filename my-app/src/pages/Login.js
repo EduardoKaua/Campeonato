@@ -3,6 +3,7 @@ import "./Login.css";
 import * as yup from "yup";
 import { ErrorMessage, Formik, Form, Field } from "formik";
 import Axios from "axios";
+import { Link } from 'react-router-dom'
 
 function Login() {
   const handleLogin = (values) => {
@@ -28,7 +29,9 @@ function Login() {
   return (
     <div className="container">
       <h1>Login</h1>
+      <Link to="/">
       <p>Não tenho acesso a conta</p>
+      </Link>
       <Formik
         initialValues={{}}
         onSubmit={handleLogin}
