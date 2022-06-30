@@ -31,36 +31,35 @@ button {
 }
 
 .Logo {
-  position: absolute;
-  right: 42%;
-  font-size: 5vh;
-  bottom: 88%;
+  position: relative;
+  left: 10px;
+  font-size: 25px;
   color: black;
 }
 
 .csgo {
   position: absolute;
   width: 420px;
-  top: 250px;
+  top: 210px;
   left: 100px;
 }
 
 .valorant {
   position: absolute;
-  top: 250px;
+  top: 210px;
   right: 100px;
 }
 
 .freefire {
   position: absolute;
-  top: 600px;
+  top: 540px;
   left: 100px;
 }
 
 .lol {
   position: absolute;
-  top: 600px;
-  left: 719px;
+  top: 540px;
+  left: 749px;
   max-height: 100px;
 }
 
