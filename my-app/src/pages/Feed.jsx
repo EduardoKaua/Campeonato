@@ -11,7 +11,7 @@ export default function Feed() {
     <body>
       <div className="cabeçalho">
         <div className="Logo">
-          <h1>1° CAMPEONATO DE GAMES ELITI</h1>
+          <h1>PRIMEIRO CAMPEONATO DE GAMES</h1>
         </div>
       </div>
 

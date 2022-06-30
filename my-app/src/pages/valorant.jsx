@@ -1,13 +1,13 @@
-import "./cs.css";
+import "./valorant.css";
 import React from "react";
 import { Link } from 'react-router-dom'
 
-export default function App() {
+export default function valorant() {
   return (
     <body>
       <div className="cabeçalho">
       <div className="Logo">
-        <h1>COUNTER STRIKE</h1>
+        <h1>VALORANT</h1>
       </div>
     </div>
       
@@ -119,7 +119,7 @@ export default function App() {
       </table>
       </div>
      
-      <div className="setacs">
+      <div className="setavalorant">
         <Link to="/">
           <h1>↩</h1>
         </Link>

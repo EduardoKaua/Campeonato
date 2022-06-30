@@ -1,3 +1,6 @@
+body {
+  background-color:burlywood ;
+}
 .container {
     width: 300px;
     height: max-content;

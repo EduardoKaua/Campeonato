@@ -23,6 +23,13 @@ body {
   color: white;
   border-bottom: solid 8px black;
 }
+.Logo {
+  position: absolute;
+  left: 480px;
+  top: 15px;
+  font-size: 25px;
+
+}
 
 table {
   position: absolute;
@@ -59,8 +66,8 @@ tr:nth-child(even) {
 }
 
 .table2{
-  position: relative;
-  left: 630px;
+  position: absolute;
+  left: 930px;
   top: 64px;
   border-collapse: collapse;
   background-color: white;

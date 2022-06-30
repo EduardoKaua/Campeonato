@@ -1,13 +1,13 @@
-import "./freefire.css";
+import "./lol.css";
 import React from "react";
 import { Link } from 'react-router-dom'
 
-export default function App() {
+export default function lol() {
   return (
     <body>
       <div className="cabeçalho">
       <div className="Logo">
-        <h1>FREE FIRE</h1>
+        <h1>LEAGUE OF LEGENDS</h1>
       </div>
     </div>
       
@@ -119,7 +119,7 @@ export default function App() {
       </table>
       </div>
      
-      <div className="setaff">
+      <div className="setalol">
         <Link to="/">
           <h1>↩</h1>
         </Link>
