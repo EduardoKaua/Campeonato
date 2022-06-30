@@ -21,6 +21,5 @@ export default function App() {
       </BrowserRouter>
       </Switch>
   </Router>
-  
   );
 }

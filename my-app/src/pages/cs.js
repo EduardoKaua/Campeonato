@@ -7,7 +7,7 @@ export default function App() {
     <body>
       <div className="cabeçalho">
       <div className="Logo">
-        <h1>CSGO</h1>
+        <h1>COUNTER STRIKE</h1>
       </div>
     </div>
       
