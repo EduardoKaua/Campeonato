@@ -33,7 +33,7 @@ body {
 
 table {
   position: absolute;
-  left: 20px;
+  margin-left: 15px;
   bottom: 70px;
   border-collapse: collapse;
   background-color: white;
@@ -67,8 +67,8 @@ tr:nth-child(even) {
 
 .table2{
   position: absolute;
-  left: 930px;
-  top: 64px;
+  margin-left: 110px;
+  margin-top: -25px;
   border-collapse: collapse;
   background-color: white;
 }
@@ -76,7 +76,7 @@ tr:nth-child(even) {
 .reserva {
   position: relative;
   left: 125px;
-}
+} 
 
  .setacs {
   position: absolute;
