@@ -14,6 +14,7 @@ export default function Feed() {
           <h1 className="game">PRIMEIRO CAMPEONATO DE GAMES ELITI</h1>
           <h1 className="cadastro">Se cadastre agora</h1>
         </div>
+        
       </div>
       <div className="login">
         <Link to="/login">
