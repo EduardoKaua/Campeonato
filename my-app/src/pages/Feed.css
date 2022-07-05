@@ -21,7 +21,7 @@ body {
   height: 120px;
   display: flex;
   color: white;
-  border-bottom: solid 8px black;
+  border-bottom: solid 7px black;
 }
 .game {
   font-size: 37px;
@@ -79,7 +79,7 @@ button {
 }
 
 img {
-  border: solid 8px black;
+  box-shadow: 8px 8px 9px 5px black;
   width: 450px;
   border-radius: 20px;
   cursor: pointer;

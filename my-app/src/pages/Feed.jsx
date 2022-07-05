@@ -43,7 +43,6 @@ export default function Feed() {
           <img src={lol} alt="" />
         </Link>
       </div>
-      <br></br>
     </body>
   );
 }
