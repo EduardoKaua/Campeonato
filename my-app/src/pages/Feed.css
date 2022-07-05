@@ -4,7 +4,6 @@
   padding: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-
 }
 
 body {
@@ -24,18 +23,33 @@ body {
   color: white;
   border-bottom: solid 8px black;
 }
+.game {
+  font-size: 37px;
+  color: rgb(99, 87, 202);
+  position: relative;
+  right: 190px;
+  bottom: 10px;
+  text-decoration-line: underline;
+}
+.cadastro {
+  position: relative;
+  bottom: 25px;
+  right: 25px;
+  text-decoration-line: underline;
+}
 
 button {
   position: absolute;
-  top: 10px;
-  left: 95%;
+  padding: 7px;
+  top: 60px;
+  left: 900px;
 }
 
 .Logo {
   position: relative;
   left: 10px;
   font-size: 20px;
-  color: black;
+  color: rgb(25, 89, 110);
 }
 
 .csgo {
