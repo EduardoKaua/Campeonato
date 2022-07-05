@@ -11,13 +11,13 @@ export default function Feed() {
     <body>
       <div className="cabeçalho">
         <div className="Logo">
-          <h1>PRIMEIRO CAMPEONATO DE GAMES</h1>
+          <h1 className="game">PRIMEIRO CAMPEONATO DE GAMES ELITI</h1>
+          <h1 className="cadastro">Se cadastre agora</h1>
         </div>
       </div>
-
       <div className="login">
         <Link to="/login">
-          <button>login</button>
+          <button>Cadastro</button>
         </Link>
       </div>
 
@@ -44,7 +44,6 @@ export default function Feed() {
           <img src={lol} alt="" />
         </Link>
       </div>
-      <br></br>
     </body>
   );
 }
