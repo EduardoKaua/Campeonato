@@ -26,6 +26,7 @@ export default function Feed() {
           <img src={csgo} alt="" />
         </Link>
       </div>
+      
       <div className="valorant">
         <Link to="/valorant">
           <img src={valorant} alt="" />
