@@ -2,7 +2,7 @@ import "./valorant.css";
 import React from "react";
 import { Link } from 'react-router-dom'
 
-export default function valorant() {
+function valorant() {
   return (
     <body>
       <div className="cabeçalho">
@@ -128,3 +128,5 @@ export default function valorant() {
     </body>
   );
 }
+
+export default valorant;

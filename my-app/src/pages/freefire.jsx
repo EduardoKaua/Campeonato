@@ -2,7 +2,7 @@ import "./freefire.css";
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function freefire() {
+function freefire() {
   return (
     <body>
       <div className="cabeçalho">
@@ -114,3 +114,5 @@ export default function freefire() {
     </body>
   );
 }
+
+export default freefire;

@@ -2,7 +2,7 @@ import "./lol.css";
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function lol() {
+function lol() {
   return (
     <body>
       <div className="cabeçalho">
@@ -114,3 +114,5 @@ export default function lol() {
     </body>
   );
 }
+
+export default lol;

@@ -2,7 +2,7 @@ import "./cs.css";
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function cs() {
+function cs() {
   return (
     <body>
       <div className="cabeçalho">
@@ -114,3 +114,5 @@ export default function cs() {
     </body>
   );
 }
+
+export default cs;

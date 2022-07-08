@@ -6,7 +6,7 @@ import freefire from "./imagens/free fire.png";
 import lol from "./imagens/lol.png";
 import { Link } from "react-router-dom";
 
-export default function Feed() {
+function Feed() {
   return (
     <body>
       <div className="cabeçalho">
@@ -48,3 +48,5 @@ export default function Feed() {
     </body>
   );
 }
+
+export default Feed; 
