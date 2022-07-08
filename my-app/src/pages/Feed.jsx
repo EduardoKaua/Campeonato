@@ -7,6 +7,7 @@ import lol from "./imagens/lol.png";
 import { Link } from "react-router-dom";
 
 function Feed() {
+  document.querySelector("body").style.backgroundImage="linear-gradient(to right, rgb(26, 18, 39), rgb(124, 16, 16), rgb(35, 26, 44)"
   return (
     <body>
       <div className="cabeçalho">
