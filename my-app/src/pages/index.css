@@ -9,15 +9,6 @@
 @media only screen and (max-device-width: 900px) {
 }
 
-body {
-  background-image: linear-gradient(
-    to right,
-    rgb(33, 26, 44),
-    rgb(71, 33, 33),
-    rgb(35, 26, 44)
-  );
-}
-
 .cabeçalho {
   background-image: linear-gradient(to right, rgb(24, 23, 23), rgb(75, 69, 69));
   width: 100%;

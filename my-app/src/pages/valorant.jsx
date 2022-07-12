@@ -3,7 +3,8 @@ import React from "react";
 import { Link } from 'react-router-dom'
 
 function valorant() {
-  return (
+  document.querySelector("body").style.backgroundImage="background-image: linear-gradient(to right,#ece8e1)";
+return (
     <body>
       <div className="cabeçalho">
       <div className="Logo">

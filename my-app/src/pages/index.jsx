@@ -1,4 +1,4 @@
-import "./Feed.css";
+import "./index.css";
 import React from "react";
 import csgo from "./imagens/csgo.png";
 import valorant from "./imagens/valorant.png";
@@ -7,7 +7,8 @@ import lol from "./imagens/lol.png";
 import { Link } from "react-router-dom";
 
 function Feed() {
-  document.querySelector("body").style.backgroundImage="linear-gradient(to right, rgb(26, 18, 39), rgb(124, 16, 16), rgb(35, 26, 44)"
+  document.querySelector("body").style.backgroundImage="linear-gradient(to right, rgb(34, 32, 38), rgb(12, 7, 48)"
+
   return (
     <body>
       <div className="cabeçalho">

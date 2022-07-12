@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function cs() {
+  document.querySelector("body").style.backgroundImage="linear-gradient(to right, rgb(35, 33, 41), rgb(8, 5, 48)"
   return (
     <body>
       <div className="cabeçalho">

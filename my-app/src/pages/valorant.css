@@ -6,14 +6,8 @@
   
   body {
     font-family: Arial, Helvetica, sans-serif;
-   
-      background-image: linear-gradient(
-        to right,
-        rgb(45, 43, 48),
-        rgb(26, 24, 58)
-      )
+    background-image: linear-gradient(to right,#ece8e1);
   }
-    
   .cabeÃ§alho {
     background-image: linear-gradient(to right, rgb(32, 31, 31), rgb(82, 78, 78));
     width: 100%;

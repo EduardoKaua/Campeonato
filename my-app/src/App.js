@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, BrowserRouter as Router, Route, Switch, }
  from "react-router-dom";
-import Feed from "./pages/Feed";
+import Feed from "./pages/index";
 import Login from "./pages/Login";
 import cs from "./pages/cs";
 import valorant from "./pages/valorant";
