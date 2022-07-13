@@ -6,7 +6,7 @@ import freefire from "./imagens/free fire.png";
 import lol from "./imagens/lol.png";
 import { Link } from "react-router-dom";
 
-function Feed() {
+function index() {
   document.querySelector("body").style.backgroundImage="linear-gradient(to right, rgb(34, 32, 38), rgb(12, 7, 48)"
 
   return (
@@ -51,4 +51,4 @@ function Feed() {
   );
 }
 
-export default Feed; 
+export default index; 

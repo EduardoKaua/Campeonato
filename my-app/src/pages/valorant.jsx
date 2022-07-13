@@ -11,7 +11,7 @@ return (
         <h1>VALORANT</h1>
       </div>
     </div>
-      
+
       <div className="tabela">
       <table>
       <thead>
@@ -45,7 +45,7 @@ return (
       <td>sem info</td>
 
       </tr>
-      
+
       <tr>
       <td>sem info</td>
       <td>sem info</td>
@@ -66,7 +66,7 @@ return (
 
 
     </div>
-      
+
       <div className="tabela2">
       <table className="table2">
       <thead>
@@ -78,8 +78,7 @@ return (
       <th>Idade</th>
       <th>Turma</th>
       </tr>
-
-      <tr>
+<tr>
       <td>Strend</td>
       <td>Gustavo</td>
       <td>81 anos</td>
@@ -114,15 +113,15 @@ return (
       <td>sem info</td>
 
       </tr>
-      
+
       </tbody>
       </thead>
       </table>
       </div>
-     
+
       <div className="setavalorant">
         <Link to="/">
-          <h1>↩</h1>
+          <h1>↩️</h1>
         </Link>
          </div>
 

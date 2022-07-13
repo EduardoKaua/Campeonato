@@ -41,7 +41,7 @@ function freefire() {
                 <td>sem info</td>
                 <td>sem info</td>
               </tr>
-
+              
               <tr>
                 <td>sem info</td>
                 <td>sem info</td>
@@ -108,7 +108,7 @@ function freefire() {
 
       <div className="setaff">
         <Link to="/">
-          <h1>↩</h1>
+          <h1>↩️</h1>
         </Link>
       </div>
     </body>

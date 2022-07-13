@@ -59,8 +59,8 @@ function cs() {
           </thead>
         </table>
       </div>
-
-      <div className="tabela2">
+      
+<div className="tabela2">
         <table className="table2">
           <thead>
             <tbody>
@@ -109,7 +109,7 @@ function cs() {
 
       <div className="setacs">
         <Link to="/">
-          <h1>↩</h1>
+          <h1>↩️</h1>
         </Link>
       </div>
     </body>

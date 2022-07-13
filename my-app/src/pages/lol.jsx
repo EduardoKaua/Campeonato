@@ -70,7 +70,7 @@ function lol() {
                 <th>Idade</th>
                 <th>Turma</th>
               </tr>
-
+              
               <tr>
                 <td>Strend</td>
                 <td>Gustavo</td>
@@ -108,7 +108,7 @@ function lol() {
 
       <div className="setalol">
         <Link to="/">
-          <h1>↩</h1>
+          <h1>↩️</h1>
         </Link>
       </div>
     </body>
