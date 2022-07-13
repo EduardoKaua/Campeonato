@@ -38,13 +38,13 @@ function index() {
 
       <div className="freefire">
         <Link to="/freefire">
-          <img src={freefire} alt="" />
+          <img src={lol} alt="" />
         </Link>
       </div>
 
       <div className="lol">
         <Link to="/lol">
-          <img src={lol} alt="" />
+          <img src={freefire} alt="" />
         </Link>
       </div>
     </body>

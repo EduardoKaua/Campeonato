@@ -24,12 +24,14 @@
   right: 190px;
   bottom: 10px;
   text-decoration-line: underline;
+  display: block;
 }
 .cadastro {
   position: relative;
   bottom: 25px;
   right: 25px;
   text-decoration-line: underline;
+  display: block;
 }
 
 button {
@@ -54,9 +56,10 @@ button {
 }
 
 .valorant {
-  position: absolute;
-  top: 210px;
-  right: 120px;
+  position: relative;
+  top: 90px;
+  left:780px;
+  
 }
 
 .freefire {
@@ -79,6 +82,7 @@ img {
   cursor: pointer;
   transition-duration: 1s;
   border: solid 0px rgba(255, 6, 6, 0);
+  display: block;
 }
 
 img:hover {
