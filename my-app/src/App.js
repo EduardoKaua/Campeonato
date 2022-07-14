@@ -1,27 +1,24 @@
 import React from "react";
-import { BrowserRouter, BrowserRouter as Router, Route, Switch, }
- from "react-router-dom";
-import Feed from "./pages/index";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
-import cs from "./pages/cs";
-import valorant from "./pages/valorant";
-import freefire from "./pages/freefire";
-import lol from "./pages/lol";
+import cs from "./cs/cs";
+import valorant from "./valorant//valorant";
+import freefire from "./free/freefire";
+import lol from "./lol/lol";
+import index from "./pages/index";
 
 function App() {
   return (
-  <BrowserRouter>
     <Router>
-      <Switch>
-          <Route exact path="/" component={Feed} />
-          <Route path="/login" component={Login} />
-          <Route path="/cs" component={cs} />
-          <Route path="/valorant" component={valorant} />
-          <Route path="/freefire" component={freefire} />
-          <Route path="/lol" component={lol} />
-      </Switch>
-     </Router>
-    </BrowserRouter>
+      <Routes>
+        <Route path="/" element={index} />
+        <Route path="/login" element={Login} />
+        <Route path="/cs" element={cs} />
+        <Route path="/valorant" element={valorant} />
+        <Route path="/freefire" element={freefire} />
+        <Route path="/lol" element={lol} />
+      </Routes>
+    </Router>
   );
 }
 
