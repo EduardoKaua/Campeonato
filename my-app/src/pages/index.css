@@ -7,6 +7,9 @@
   scroll-padding-block: 1px;
 }
 
+.fundo {
+  background-color: blueviolet;
+}
 .cabeçalho {
   background-image: linear-gradient(to right, rgb(24, 23, 23), rgb(75, 69, 69));
   height: 120px;
@@ -14,28 +17,36 @@
   color: white;
   border-bottom: solid 7px black;
 }
+.login1 {
+  position: fixed;
+  top: 10px;
+  left: 1210px;
+}
 .game {
   font-size: 37px;
-  color: rgba(255, 0, 0, 0.808);
+  color: rgba(255, 0, 0, 0.886);
   position: relative;
-  right: 190px;
+  right: -250px;
   bottom: 10px;
   text-decoration-line: underline;
   display: block;
 }
 .cadastro {
-  position: relative;
+  position: absolute;
+  color: rgb(211, 211, 211);
   bottom: 25px;
-  right: 25px;
+  right: -10px;
   text-decoration-line: underline;
-  display: block;
 }
 
-button {
+.login {
   position: absolute;
   padding: 7px;
   top: 60px;
   left: 900px;
+}
+button {
+  padding: 7px;
 }
 
 .Logo {

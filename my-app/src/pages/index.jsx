@@ -7,8 +7,8 @@ import lol from "./imagens/lol.png";
 import { Link } from "react-router-dom";
 
 function index() {
-  document.querySelector("body").style.backgroundImage="linear-gradient(to right, rgb(34, 32, 38), rgb(12, 7, 48)"
-
+  document.querySelector("body").style.backgroundImage =
+    "linear-gradient(to right, rgb(34, 32, 38), rgb(12, 7, 48)";
   return (
     <body>
       <div className="cabeçalho">
@@ -16,11 +16,15 @@ function index() {
           <h1 className="game">PRIMEIRO CAMPEONATO DE GAMES ELITI</h1>
           <h1 className="cadastro">Se cadastre agora</h1>
         </div>
-        
       </div>
       <div className="login">
-        <Link to="/login">
+        <Link to="/register">
           <button>Cadastro</button>
+        </Link>
+      </div>
+      <div className="login1">
+        <Link to="/login">
+          <button>Login</button>
         </Link>
       </div>
 
@@ -29,7 +33,7 @@ function index() {
           <img src={csgo} alt="" />
         </Link>
       </div>
-      
+
       <div className="valorant">
         <Link to="/valorant">
           <img src={valorant} alt="" />
@@ -51,4 +55,4 @@ function index() {
   );
 }
 
-export default index; 
+export default index;

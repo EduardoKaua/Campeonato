@@ -6,7 +6,8 @@ import Axios from "axios";
 import { Link } from "react-router-dom";
 
 function Login() {
-  document.querySelector("body").style.backgroundImage="linear-gradient(to right, rgb(33, 26, 44), rgb(71, 33, 33), rgb(35, 26, 44)"
+  document.querySelector("body").style.backgroundImage =
+    "linear-gradient(to right, rgb(33, 26, 44), rgb(71, 33, 33), rgb(35, 26, 44)";
 
   const handleLogin = (values) => {
     Axios.post("http://localhost:3001/login", {
@@ -18,10 +19,7 @@ function Login() {
   };
 
   const validationsLogin = yup.object().shape({
-    email: yup
-      .string()
-      .email("email inválido")
-      .required("O email é obrigatório"),
+    email: yup.string().email("Nick inválido").required("O nick é obrigatório"),
     password: yup
       .string()
       .min(8, "A senha deve ter pelo menos 8 caracteres")
@@ -39,7 +37,7 @@ function Login() {
       >
         <Form className="login-form">
           <div className="login-form-group">
-            <Field name="email" className="form-field" placeholder="Email" />
+            <Field name="email" className="form-field" placeholder="Nick" />
 
             <ErrorMessage
               component="span"
