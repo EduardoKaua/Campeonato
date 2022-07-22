@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch uselocation} from "react-router-dom";
 import Login from "./pages/Login";
 import cs from "./pages/cs";
 import valorant from "./pages/valorant";
@@ -10,6 +10,10 @@ import register from "./pages/register";
 
 function App() {
   return (
+
+const location = uselocation
+
+    
     <Router>
       <Switch>
         <Route exact path="/" component={index} />
