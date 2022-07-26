@@ -18,11 +18,13 @@ function index(props) {
           <h1 className="cadastro">Se cadastre agora</h1>
         </div>
       </div>
+
       <div className="login">
         <Link to="/register">
           <button>Cadastro</button>
         </Link>
       </div>
+
       <div className="login1">
         <Link to="/login">
           <button>Login</button>

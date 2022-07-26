@@ -17,30 +17,29 @@ function App() {
 
 <Route path="/register" component={register} >
 </Route>
-<Redirect from="/register" to="/index" />
+<Redirect from="/register" to="/" />
 
 <Route path="/login" component={Login} >
 </Route>
-<Redirect from="/login" to="/index" />
+<Redirect from="/login" to="/" />
 
 <Route path="/cs" component={cs} >
 </Route>
-<Redirect from="/cs" to="/index" />
+<Redirect from="/cs" to="/" />
 
 <Route path="/valorant" component={valorant} >
 </Route>
-<Redirect from="/valorant" to="/index" />
+<Redirect from="/valorant" to="/" />
 
 <Route path="/freefire" component={freefire} >
 </Route>
-<Redirect from="/freefire" to="/index" />
+<Redirect from="/freefire" to="/" />
 
 <Route path="/lol" component={lol} >
 </Route>
-<Redirect from="/lol" to="/index" />
+<Redirect from="/lol" to="/" />
 
 </Switch>
-
   );
 };
 
