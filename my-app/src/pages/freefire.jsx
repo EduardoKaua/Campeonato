@@ -1,11 +1,15 @@
 import "./freefire.css";
-import React from "react";
 import { Link } from "react-router-dom";
 
-function freefire() {
+function freefire(props) {
+
+  console.log(props.location);
+  console.log(props.match);
+  console.log(props.history);
+
   return (
     <body>
-      <div className="cabeçalho">
+      <div className="cabecalho">
         <div className="Logo">
           <h1>FREE FIRE</h1>
         </div>

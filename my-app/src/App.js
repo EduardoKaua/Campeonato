@@ -1,31 +1,47 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch uselocation} from "react-router-dom";
+import {Route, Switch, Redirect} from "react-router-dom";
+import index from "./pages/index";
 import Login from "./pages/Login";
 import cs from "./pages/cs";
 import valorant from "./pages/valorant";
 import freefire from "./pages/freefire";
 import lol from "./pages/lol";
-import index from "./pages/index";
 import register from "./pages/register";
 
 function App() {
   return (
+<Switch>
 
-const location = uselocation
+<Route exact path="/" component={index} >
+</Route>
 
-    
-    <Router>
-      <Switch>
-        <Route exact path="/" component={index} />
-        <Route path="/register" component={register} />
-        <Route path="/login" component={Login} />
-        <Route path="/cs" component={cs} />
-        <Route path="/valorant" component={valorant} />
-        <Route path="/freefire" component={freefire} />
-        <Route path="/lol" component={lol} />
-      </Switch>
-    </Router>
+<Route path="/register" component={register} >
+</Route>
+<Redirect from="/register" to="/index" />
+
+<Route path="/login" component={Login} >
+</Route>
+<Redirect from="/login" to="/index" />
+
+<Route path="/cs" component={cs} >
+</Route>
+<Redirect from="/cs" to="/index" />
+
+<Route path="/valorant" component={valorant} >
+</Route>
+<Redirect from="/valorant" to="/index" />
+
+<Route path="/freefire" component={freefire} >
+</Route>
+<Redirect from="/freefire" to="/index" />
+
+<Route path="/lol" component={lol} >
+</Route>
+<Redirect from="/lol" to="/index" />
+
+</Switch>
+
   );
-}
+};
 
 export default App;

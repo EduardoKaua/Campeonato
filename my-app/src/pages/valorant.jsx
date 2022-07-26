@@ -1,13 +1,17 @@
 import "./valorant.css";
-import React from "react";
 import { Link } from "react-router-dom";
 
-function valorant() {
+function valorant(props) {
   document.querySelector("body").style.backgroundImage =
     "background-image: linear-gradient(to right,#ece8e1)";
+
+    console.log(props.location);
+    console.log(props.match);
+    console.log(props.history);
+
   return (
     <body>
-      <div className="cabeçalho">
+      <div className="cabecalho">
         <div className="Logo">
           <h1>VALORANT</h1>
         </div>

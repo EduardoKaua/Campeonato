@@ -1,13 +1,13 @@
-import React from "react";
 import "./Login.css";
 import * as yup from "yup";
 import { ErrorMessage, Formik, Form, Field } from "formik";
 import Axios from "axios";
 import { Link } from "react-router-dom";
 
-function Login() {
-  document.querySelector("body").style.backgroundImage =
-    "linear-gradient(to right, rgb(33, 26, 44), rgb(71, 33, 33), rgb(35, 26, 44)";
+function Login(props) {
+    console.log(props.location);
+    console.log(props.match);
+    console.log(props.history);
 
   const handleLogin = (values) => {
     Axios.post("http://localhost:3001/login", {

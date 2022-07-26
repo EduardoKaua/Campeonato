@@ -1,11 +1,15 @@
 import "./lol.css";
-import React from "react";
 import { Link } from "react-router-dom";
 
-function lol() {
+function lol(props) {
+
+  console.log(props.location);
+  console.log(props.match);
+  console.log(props.history);
+
   return (
     <body>
-      <div className="cabeçalho">
+      <div className="cabecalho">
         <div className="Logo">
           <h1>LEAGUE OF LEGENDS</h1>
         </div>

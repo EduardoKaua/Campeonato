@@ -1,13 +1,15 @@
-import "./cs.css";
-import React from "react";
+import './cs.css'
 import { Link } from "react-router-dom";
 
-function cs() {
-  document.querySelector("body").style.backgroundImage =
-    "linear-gradient(to right, rgb(35, 33, 41), rgb(8, 5, 48)";
+function cs(props) {
+
+  console.log(props.location);
+  console.log(props.match);
+  console.log(props.history);
+
   return (
     <body>
-      <div className="cabeçalho">
+      <div className="cabecalho">
         <div className="Logo">
           <h1>COUNTER STRIKE</h1>
         </div>
