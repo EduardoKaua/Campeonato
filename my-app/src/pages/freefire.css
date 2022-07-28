@@ -9,13 +9,25 @@ body {
 }
 
 .cabecalhof {
-  background-image: linear-gradient(to right, rgb(12, 12, 12), rgb(82, 78, 78));
+  background-image: linear-gradient(
+    to right,
+    rgb(12, 79, 62),
+    rgb(16, 60, 125),
+    rgb(12, 79, 62)
+  );
   width: 100%;
   height: 120px;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   border-bottom: solid 8px black;
+  -webkit-text-stroke: 2px rgb(40, 38, 38);
+}
+.Logof {
+  position: absolute;
+  left: 500px;
+  top: 15px;
+  font-size: 25px;
 }
 
 table {

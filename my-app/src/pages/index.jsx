@@ -13,7 +13,7 @@ function index(props) {
   return (
     <body>
       <div className="cabecalho1">
-        <div className="Logo">
+        <div className="Logo1">
           <h1 className="game">PRIMEIRO CAMPEONATO DE GAMES ELITI</h1>
           <h1 className="cadastro">Se cadastre agora</h1>
         </div>

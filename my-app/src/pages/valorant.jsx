@@ -2,8 +2,6 @@ import "./valorant.css";
 import { Link } from "react-router-dom";
 
 function valorant(props) {
-  document.querySelector("body").style.backgroundImage =
-    "background-image: linear-gradient(to right,#ece8e1)";
 
   console.log(props.location);
   console.log(props.match);

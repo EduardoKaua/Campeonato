@@ -5,9 +5,22 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(26, 29, 44),
+    rgb(33, 61, 71),
+    rgb(16, 23, 62)
+  );
+}
 
 .cabecalho1 {
-  background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(75, 69, 69));
+  background-image: linear-gradient(
+    180deg,
+    rgb(181, 242, 210),
+    rgb(129, 161, 206)
+  );
+
   height: 120px;
   display: flex;
   color: white;
@@ -21,35 +34,30 @@
 .game {
   font-size: 37px;
   color: rgba(255, 0, 0, 0.886);
+  -webkit-text-stroke: 2px black;
   position: relative;
   right: -250px;
-  bottom: 10px;
+  bottom: 0px;
   text-decoration-line: underline;
-  display: block;
 }
 .cadastro {
-  position: absolute;
-  color: rgb(211, 211, 211);
-  bottom: 25px;
-  right: -10px;
+  font-size: 38px;
+  position: relative;
+  -webkit-text-stroke: 2px black;
+  color: rgb(235, 221, 221);
+  bottom: 0px;
+  right: -450px;
   text-decoration-line: underline;
 }
 
 .login {
   position: absolute;
   padding: 7px;
-  top: 60px;
-  left: 900px;
+  top: 50px;
+  left: 800px;
 }
 button {
   padding: 7px;
-}
-
-.Logo1 {
-  position: relative;
-  left: 10px;
-  font-size: 19px;
-  color: rgba(173, 156, 167, 0.884);
 }
 
 .csgo {
@@ -60,8 +68,8 @@ button {
 }
 
 .valorant {
-  position: relative;
-  top: 90px;
+  position: static;
+  padding-top: 88px;
   padding-left: 780px;
 }
 
