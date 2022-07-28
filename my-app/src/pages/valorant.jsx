@@ -5,14 +5,14 @@ function valorant(props) {
   document.querySelector("body").style.backgroundImage =
     "background-image: linear-gradient(to right,#ece8e1)";
 
-    console.log(props.location);
-    console.log(props.match);
-    console.log(props.history);
+  console.log(props.location);
+  console.log(props.match);
+  console.log(props.history);
 
   return (
     <body>
-      <div className="cabecalho">
-        <div className="Logo">
+      <div className="cabecalhov">
+        <div className="Logov">
           <h1>VALORANT</h1>
         </div>
       </div>

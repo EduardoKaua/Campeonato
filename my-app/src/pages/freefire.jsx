@@ -2,15 +2,14 @@ import "./freefire.css";
 import { Link } from "react-router-dom";
 
 function freefire(props) {
-
   console.log(props.location);
   console.log(props.match);
   console.log(props.history);
 
   return (
     <body>
-      <div className="cabecalho">
-        <div className="Logo">
+      <div className="cabecalhof">
+        <div className="Logof">
           <h1>FREE FIRE</h1>
         </div>
       </div>
@@ -45,7 +44,7 @@ function freefire(props) {
                 <td>sem info</td>
                 <td>sem info</td>
               </tr>
-              
+
               <tr>
                 <td>sem info</td>
                 <td>sem info</td>

@@ -1,16 +1,15 @@
-import './cs.css'
+import "./cs.css";
 import { Link } from "react-router-dom";
 
 function cs(props) {
-
   console.log(props.location);
   console.log(props.match);
   console.log(props.history);
 
   return (
     <body>
-      <div className="cabecalho">
-        <div className="Logo">
+      <div className="cabecalhoc">
+        <div className="Logoc">
           <h1>COUNTER STRIKE</h1>
         </div>
       </div>

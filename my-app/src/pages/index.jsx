@@ -6,13 +6,13 @@ import lol from "./imagens/lol.png";
 import { Link } from "react-router-dom";
 
 function index(props) {
-    console.log(props.location);
-    console.log(props.match);
-    console.log(props.history);
+  console.log(props.location);
+  console.log(props.match);
+  console.log(props.history);
 
   return (
     <body>
-      <div className="cabecalho">
+      <div className="cabecalho1">
         <div className="Logo">
           <h1 className="game">PRIMEIRO CAMPEONATO DE GAMES ELITI</h1>
           <h1 className="cadastro">Se cadastre agora</h1>

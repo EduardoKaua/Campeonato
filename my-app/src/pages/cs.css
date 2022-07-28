@@ -8,7 +8,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.cabecalho {
+.cabecalhoc {
   background-image: linear-gradient(to right, rgb(32, 31, 31), rgb(82, 78, 78));
   width: 100%;
   height: 120px;
@@ -17,12 +17,11 @@ body {
   color: white;
   border-bottom: solid 8px black;
 }
-.Logo {
+.Logoc {
   position: absolute;
   left: 480px;
   top: 15px;
   font-size: 25px;
-
 }
 
 table {
@@ -32,23 +31,24 @@ table {
   border-collapse: collapse;
   background-color: white;
 }
-caption{
+caption {
   font-size: 1.2em;
   font-weight: bolder;
   padding: 20px;
 }
-caption{
+caption {
   font-size: 1.2em;
   font-weight: bolder;
   padding: 15px;
 }
 
-th, td {
+th,
+td {
   border: 1px solid black;
   padding: 15px;
 }
 tr:nth-child(even) {
-  background-color: rgb(228,228,288);
+  background-color: rgb(228, 228, 288);
 }
 .tabela {
   overflow-y: auto;
@@ -59,7 +59,7 @@ tr:nth-child(even) {
   left: 125px;
 }
 
-.table2{
+.table2 {
   position: absolute;
   margin-left: 110px;
   margin-top: -25px;
@@ -70,9 +70,9 @@ tr:nth-child(even) {
 .reserva {
   position: relative;
   left: 125px;
-} 
+}
 
- .setacs {
+.setacs {
   position: absolute;
   color: white;
   font-size: 30px;
