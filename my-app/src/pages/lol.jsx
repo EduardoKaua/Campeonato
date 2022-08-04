@@ -7,7 +7,7 @@ function lol(props) {
   console.log(props.history);
 
   return (
-    <body>
+    <header>
       <div className="cabecalhol">
         <div className="Logol">
           <h1>LEAGUE OF LEGENDS</h1>
@@ -114,7 +114,7 @@ function lol(props) {
           <h1>↩️</h1>
         </Link>
       </div>
-    </body>
+    </header>
   );
 }
 

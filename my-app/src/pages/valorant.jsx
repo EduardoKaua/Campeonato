@@ -2,13 +2,12 @@ import "./valorant.css";
 import { Link } from "react-router-dom";
 
 function valorant(props) {
-
   console.log(props.location);
   console.log(props.match);
   console.log(props.history);
 
   return (
-    <body>
+    <div className="fundov">
       <div className="cabecalhov">
         <div className="Logov">
           <h1>VALORANT</h1>
@@ -114,7 +113,7 @@ function valorant(props) {
           <h1>↩️</h1>
         </Link>
       </div>
-    </body>
+    </div>
   );
 }
 

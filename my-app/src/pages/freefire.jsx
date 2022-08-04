@@ -7,7 +7,7 @@ function freefire(props) {
   console.log(props.history);
 
   return (
-    <body>
+    <header>
       <div className="cabecalhof">
         <div className="Logof">
           <h1>FREE FIRE</h1>
@@ -114,7 +114,7 @@ function freefire(props) {
           <h1>↩️</h1>
         </Link>
       </div>
-    </body>
+    </header>
   );
 }
 

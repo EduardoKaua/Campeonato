@@ -11,7 +11,7 @@ function index(props) {
   console.log(props.history);
 
   return (
-    <body>
+    <header>
       <div className="cabecalho1">
         <div className="Logo1">
           <h1 className="game">PRIMEIRO CAMPEONATO DE GAMES ELITI</h1>
@@ -54,7 +54,7 @@ function index(props) {
           <img src={freefire} alt="" />
         </Link>
       </div>
-    </body>
+    </header>
   );
 }
 

@@ -7,7 +7,7 @@ function cs(props) {
   console.log(props.history);
 
   return (
-    <body>
+    <header>
       <div className="cabecalhoc">
         <div className="Logoc">
           <h1>COUNTER STRIKE</h1>
@@ -114,7 +114,7 @@ function cs(props) {
           <h1>↩️</h1>
         </Link>
       </div>
-    </body>
+    </header>
   );
 }
 
