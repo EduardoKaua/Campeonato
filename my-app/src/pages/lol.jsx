@@ -111,7 +111,7 @@ function lol(props) {
 
       <div className="setalol">
         <Link to="/">
-          <h1>↩️</h1>
+          <h1>↩</h1>
         </Link>
       </div>
     </header>

@@ -7,18 +7,18 @@ function cs(props) {
   console.log(props.history);
 
   return (
-    <header>
-      <div className="cabecalhoc">
-        <div className="Logoc">
+    <div className="backgroundcs">
+      <div className="headercs">
+        <div className="sooncs">
           <h1>COUNTER STRIKE</h1>
         </div>
       </div>
 
-      <div className="tabela">
+      <div className="table">
         <table>
           <thead>
             <tbody>
-              <h1 className="titular">Jogadores Titulares</h1>
+              <h1 className="holders">Jogadores Titulares</h1>
               <tr>
                 <th>Nick</th>
                 <th>Nome</th>
@@ -62,11 +62,11 @@ function cs(props) {
         </table>
       </div>
 
-      <div className="tabela2">
+      <div className="tablecs">
         <table className="table2">
           <thead>
             <tbody>
-              <h1 className="reserva">Jogadores Reservas</h1>
+              <h1 className="reservation">Jogadores Reservas</h1>
               <tr>
                 <th>Nick</th>
                 <th>Nome</th>
@@ -109,12 +109,12 @@ function cs(props) {
         </table>
       </div>
 
-      <div className="setacs">
+      <div className="arrowcs">
         <Link to="/">
-          <h1>↩️</h1>
+          <h1>↩</h1>
         </Link>
       </div>
-    </header>
+    </div>
   );
 }
 

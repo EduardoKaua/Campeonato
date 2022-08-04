@@ -110,7 +110,7 @@ function valorant(props) {
 
       <div className="setavalorant">
         <Link to="/">
-          <h1>↩️</h1>
+          <h1>↩</h1>
         </Link>
       </div>
     </div>

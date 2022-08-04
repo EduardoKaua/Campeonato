@@ -7,18 +7,18 @@ function freefire(props) {
   console.log(props.history);
 
   return (
-    <header>
-      <div className="cabecalhof">
-        <div className="Logof">
+    <div className="backgroundff">
+      <div className="headerff">
+        <div className="soonff">
           <h1>FREE FIRE</h1>
         </div>
       </div>
 
-      <div className="tabela">
+      <div className="tableff">
         <table>
           <thead>
             <tbody>
-              <h1 className="titular">Jogadores Titulares</h1>
+              <h1 className="holderff">Jogadores Titulares</h1>
               <tr>
                 <th>Nick</th>
                 <th>Nome</th>
@@ -62,11 +62,11 @@ function freefire(props) {
         </table>
       </div>
 
-      <div className="tabela2">
-        <table className="table2">
+      <div className="tableff2">
+        <table className="tableff">
           <thead>
             <tbody>
-              <h1 className="reserva">Jogadores Reservas</h1>
+              <h1 className="reservationff">Jogadores Reservas</h1>
               <tr>
                 <th>Nick</th>
                 <th>Nome</th>
@@ -109,12 +109,12 @@ function freefire(props) {
         </table>
       </div>
 
-      <div className="setaff">
+      <div className="arrowff">
         <Link to="/">
-          <h1>↩️</h1>
+          <h1>↩</h1>
         </Link>
       </div>
-    </header>
+    </div>
   );
 }
 

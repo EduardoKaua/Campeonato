@@ -4,11 +4,11 @@
   padding: 0;
 }
 
-body {
+.backgroundcs {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.cabecalhoc {
+.headercs {
   background-image: linear-gradient(180deg, rgb(10, 19, 45), rgb(23, 20, 20));
   width: 100%;
   height: 120px;
@@ -17,7 +17,7 @@ body {
   color: white;
   border-bottom: solid 8px black;
 }
-.Logoc {
+.sooncs {
   position: absolute;
   left: 480px;
   top: 15px;
@@ -50,11 +50,11 @@ td {
 tr:nth-child(even) {
   background-color: rgb(228, 228, 288);
 }
-.tabela {
+.table {
   overflow-y: auto;
   overflow-x: auto;
 }
-.titular {
+.holder {
   position: relative;
   left: 125px;
 }
@@ -67,12 +67,12 @@ tr:nth-child(even) {
   background-color: white;
 }
 
-.reserva {
+.reservation {
   position: relative;
   left: 125px;
 }
 
-.setacs {
+.arrowcs {
   position: absolute;
   color: white;
   font-size: 30px;
