@@ -12,10 +12,10 @@ function index(props) {
 
   return (
     <header>
-      <div className="cabecalho1">
-        <div className="Logo1">
+      <div className="header1">
+        <div className="soon1">
           <h1 className="game">PRIMEIRO CAMPEONATO DE GAMES ELITI</h1>
-          <h1 className="cadastro">Se cadastre agora</h1>
+          <h1 className="registration">Se cadastre agora</h1>
         </div>
       </div>
 
@@ -45,13 +45,13 @@ function index(props) {
 
       <div className="freefire">
         <Link to="/freefire">
-          <img src={lol} alt="" />
+          <img src={freefire} alt="" />
         </Link>
       </div>
 
       <div className="lol">
         <Link to="/lol">
-          <img src={freefire} alt="" />
+          <img src={lol} alt="" />
         </Link>
       </div>
     </header>

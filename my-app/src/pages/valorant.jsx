@@ -7,18 +7,18 @@ function valorant(props) {
   console.log(props.history);
 
   return (
-    <div className="fundov">
-      <div className="cabecalhov">
-        <div className="Logov">
+    <div className="backgroundvava">
+      <div className="headervava">
+        <div className="soonvava">
           <h1>VALORANT</h1>
         </div>
       </div>
 
-      <div className="tabela">
+      <div className="tablevava">
         <table>
           <thead>
             <tbody>
-              <h1 className="titular">Jogadores Titulares</h1>
+              <h1 className="headervava">Jogadores Titulares</h1>
               <tr>
                 <th>Nick</th>
                 <th>Nome</th>
@@ -62,11 +62,11 @@ function valorant(props) {
         </table>
       </div>
 
-      <div className="tabela2">
-        <table className="table2">
+      <div className="tablevava2">
+        <table className="tablevava">
           <thead>
             <tbody>
-              <h1 className="reserva">Jogadores Reservas</h1>
+              <h1 className="reservationvava">Jogadores Reservas</h1>
               <tr>
                 <th>Nick</th>
                 <th>Nome</th>
@@ -108,7 +108,7 @@ function valorant(props) {
         </table>
       </div>
 
-      <div className="setavalorant">
+      <div className="arrowvava">
         <Link to="/">
           <h1>↩</h1>
         </Link>

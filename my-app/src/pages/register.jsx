@@ -95,7 +95,7 @@ function register(props) {
           <button className="button" type="submit">
             cadastrar
           </button>
-          <div className="seta">
+          <div className="arrow">
             <Link to="/">
               <h1>↩</h1>
             </Link>

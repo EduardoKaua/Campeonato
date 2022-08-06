@@ -50,7 +50,7 @@ p {
   cursor: pointer;
 }
 
-.seta {
+.arrow {
   position: absolute;
   color: white;
   font-size: 30px;

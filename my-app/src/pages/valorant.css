@@ -8,7 +8,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.cabecalhov {
+.headervava {
   background-image: linear-gradient(
     180deg,
     rgb(222, 247, 234),
@@ -21,7 +21,7 @@ body {
   color: white;
   border-bottom: solid 8px black;
 }
-.Logov {
+.soonvava {
   font-size: 27px;
   color: #ff4655;
   position: relative;
@@ -54,16 +54,16 @@ td {
   padding: 15px;
 }
 
-.tabela {
+.tablevava {
   overflow-y: auto;
   overflow-x: auto;
 }
-.titular {
+.holdervava {
   position: relative;
   left: 125px;
 }
 
-.table2 {
+.tablevava2 {
   position: relative;
   left: 630px;
   top: 64px;
@@ -71,12 +71,12 @@ td {
   background-color: white;
 }
 
-.reserva {
+.reservationvava {
   position: relative;
   left: 125px;
 }
 
-.setavalorant {
+.arrowvava {
   position: absolute;
   color: white;
   font-size: 30px;

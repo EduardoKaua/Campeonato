@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function freefire(props) {
   console.log(props.location);
   console.log(props.match);
-  console.log(props.history);
+  console.log(props.history); 
 
-  return (
+return (
     <div className="backgroundff">
       <div className="headerff">
         <div className="soonff">
@@ -116,6 +116,6 @@ function freefire(props) {
       </div>
     </div>
   );
-}
+};
 
 export default freefire;
