@@ -1,121 +1,61 @@
-import "./freefire.css";
+import "./index.css";
+import csgo from "./imagens/csgo.png";
+import valorant from "./imagens/valorant.png";
+import freefire from "./imagens/free fire.png";
+import lol from "./imagens/lol.png";
 import { Link } from "react-router-dom";
 
-function freefire(props) {
+function index(props) {
   console.log(props.location);
   console.log(props.match);
   console.log(props.history);
 
   return (
-    <div className="backgroundff">
-      <div className="headerff">
-        <div className="soonff">
-          <h1>FREE FIRE</h1>
+    <header>
+      <div className="cabecalho1">
+        <div className="Logo1">
+          <h1 className="game">PRIMEIRO CAMPEONATO DE GAMES ELITI</h1>
+          <h1 className="cadastro">Se cadastre agora</h1>
         </div>
       </div>
 
-      <div className="tableff">
-        <table>
-          <thead>
-            <tbody>
-              <h1 className="holderff">Jogadores Titulares</h1>
-              <tr>
-                <th>Nick</th>
-                <th>Nome</th>
-                <th>Idade</th>
-                <th>Turma</th>
-              </tr>
-
-              <tr>
-                <td>Strend</td>
-                <td>Gustavo</td>
-                <td>81 anos</td>
-                <td>1° turma</td>
-              </tr>
-              <tr>
-                <td>sem info</td>
-                <td>sem info</td>
-                <td>sem info</td>
-                <td>sem info</td>
-              </tr>
-              <tr>
-                <td>sem info</td>
-                <td>sem info</td>
-                <td>sem info</td>
-                <td>sem info</td>
-              </tr>
-
-              <tr>
-                <td>sem info</td>
-                <td>sem info</td>
-                <td>sem info</td>
-                <td>sem info</td>
-              </tr>
-              <tr>
-                <td>sem info</td>
-                <td>sem info</td>
-                <td>sem info</td>
-                <td>sem info</td>
-              </tr>
-            </tbody>
-          </thead>
-        </table>
-      </div>
-
-      <div className="tableff2">
-        <table className="tableff">
-          <thead>
-            <tbody>
-              <h1 className="reservationff">Jogadores Reservas</h1>
-              <tr>
-                <th>Nick</th>
-                <th>Nome</th>
-                <th>Idade</th>
-                <th>Turma</th>
-              </tr>
-
-              <tr>
-                <td>Strend</td>
-                <td>Gustavo</td>
-                <td>81 anos</td>
-                <td>1° turma</td>
-              </tr>
-              <tr>
-                <td>sem info</td>
-                <td>sem info</td>
-                <td>sem info</td>
-                <td>sem info</td>
-              </tr>
-              <tr>
-                <td>sem info</td>
-                <td>sem info</td>
-                <td>sem info</td>
-                <td>sem info</td>
-              </tr>
-              <tr>
-                <td>sem info</td>
-                <td>sem info</td>
-                <td>sem info</td>
-                <td>sem info</td>
-              </tr>
-              <tr>
-                <td>sem info</td>
-                <td>sem info</td>
-                <td>sem info</td>
-                <td>sem info</td>
-              </tr>
-            </tbody>
-          </thead>
-        </table>
-      </div>
-
-      <div className="arrowff">
-        <Link to="/">
-          <h1>↩</h1>
+      <div className="login">
+        <Link to="/register">
+          <button>Cadastro</button>
         </Link>
       </div>
-    </div>
+
+      <div className="login1">
+        <Link to="/login">
+          <button>Login</button>
+        </Link>
+      </div>
+
+      <div className="csgo">
+        <Link to="/cs">
+          <img src={csgo} alt="" />
+        </Link>
+      </div>
+
+      <div className="valorant">
+        <Link to="/valorant">
+          <img src={valorant} alt="" />
+        </Link>
+      </div>
+
+      <div className="freefire">
+        <Link to="/freefire">
+          <img src={lol} alt="" />
+        </Link>
+      </div>
+
+      <div className="lol">
+        <Link to="/lol">
+          <img src={freefire} alt="" />
+        </Link>
+      </div>
+    </header>
   );
 }
 
-export default freefire;
+export default index;
