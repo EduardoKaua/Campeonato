@@ -5,9 +5,9 @@ import Axios from "axios";
 import { Link } from "react-router-dom";
 
 function register(props) {
-    console.log(props.location);
-    console.log(props.match);
-    console.log(props.history);
+  console.log(props.location);
+  console.log(props.match);
+  console.log(props.history);
 
   const handleLogin = (values) => {
     Axios.post("http://localhost:3001/login", {
@@ -95,7 +95,7 @@ function register(props) {
           <button className="button" type="submit">
             cadastrar
           </button>
-          <div className="arrow">
+          <div className="seta">
             <Link to="/">
               <h1>↩</h1>
             </Link>
