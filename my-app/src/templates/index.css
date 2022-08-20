@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  body {
+    background-image: linear-gradient(
+      to right,
+      rgb(26, 29, 44),
+      rgb(33, 61, 71),
+      rgb(16, 23, 62)
+    );
+  }
+  
+  .cabecalho1 {
+    background-image: linear-gradient(
+      180deg,
+      rgb(181, 242, 210),
+      rgb(129, 161, 206)
+    );
+  
+    height: 120px;
+    display: flex;
+    color: white;
+    border-bottom: solid 7px black;
+  }
+  .login1 {
+    position: fixed;
+    top: 10px;
+    left: 1210px;
+  }
+  .game {
+    font-size: 37px;
+    color: rgba(255, 0, 0, 0.886);
+    -webkit-text-stroke: 2px black;
+    position: relative;
+    right: -250px;
+    bottom: 0px;
+    text-decoration-line: underline;
+  }
+  .cadastro {
+    font-size: 38px;
+    position: relative;
+    -webkit-text-stroke: 2px black;
+    color: rgb(235, 221, 221);
+    bottom: 0px;
+    right: -450px;
+    text-decoration-line: underline;
+  }
+  
+  .login {
+    position: absolute;
+    padding: 7px;
+    top: 50px;
+    left: 800px;
+  }
+  button {
+    padding: 7px;
+  }
+  
+  .csgo {
+    position: absolute;
+    width: 420px;
+    top: 210px;
+    left: 120px;
+  }
+  
+  .valorant {
+    position: static;
+    padding-top: 88px;
+    padding-left: 780px;
+  }
+  
+  .freefire {
+    position: absolute;
+    top: 560px;
+    left: 120px;
+  }
+  
+  .lol {
+    position: absolute;
+    top: 560px;
+    left: 780px;
+    max-height: 100px;
+  }
+  
+  img {
+    box-shadow: 8px 8px 9px 5px black;
+    width: 450px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition-duration: 1s;
+    border: solid 0px rgba(255, 6, 6, 0);
+    display: block;
+  }
+  
+  img:hover {
+    transition-duration: 0.8s;
+    width: 500px;
+    border: solid 6px rgb(255, 6, 6);
+  }
