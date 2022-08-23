@@ -11,10 +11,10 @@ body {
 
 .cabecalho1 {
   background-color: #111;
-  height: 120px;
+  height: 90px;
   display: flex;
   color: white;
-  border-bottom: solid 3px rgb(92, 92, 92);
+  border-bottom: solid 2px rgb(67, 66, 66);
 }
 
 #login1 {
